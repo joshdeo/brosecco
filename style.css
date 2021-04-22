@@ -1,0 +1,420 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16px;
+}
+
+.positioning {
+    max-width: 970px;
+    margin: auto;
+}
+
+header {
+    max-width: 970px;
+    margin: auto;
+}
+
+header img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+nav {
+    border-top: 2px solid black;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul a {
+    padding-top: 1rem;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    padding-right: 40px;
+    color: #0B1F85;
+}
+
+/* DROPWDOWN */
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    color: #0B1F85;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: #0B1F85;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* mid-section */
+
+.mid-section {
+    max-width: 970px;
+    margin: auto;
+}
+
+.mid-section img {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.order-here {
+    max-width: 970px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-here a button {
+    padding: 15px;
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    color: white;
+    background-color: #0B1F85;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.available {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid {
+    margin: auto;
+    max-width: 970px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ABOUT PAGE */
+
+.about-page-content {
+    text-align: justify;
+    color: #0B1F85;
+}
+
+.about-page-headline {
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+.about-page img {
+    margin-top: 8rem;
+    padding: 20px;
+    float: right;
+    height: 25rem;
+}
+
+.about-page-descriptions {
+    padding-top: 1em;
+}
+
+/* FOUNDERS */
+
+.founders {
+    color: #0B1F85;
+}
+
+.founder-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.founder-box img {
+    width: 35rem;
+    height: 27rem;
+    padding: 20px;
+}
+
+/* COCKTAILS */
+
+.drinks-container {
+    color: #0B1F85;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.drinks {
+    margin-top: 2rem;
+}
+
+.drink-header {
+    font-size: 1.5rem;
+}
+
+.drinks img {
+    height: 20rem;
+}
+
+/* TERMS & CONDITIONS */
+
+.terms-container {
+    padding-top: 2rem;
+    margin: auto;
+    max-width: 850px;
+    opacity: 40%;
+    padding: 20px;
+}
+
+/* CONTACT FORM */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0B1F85;
+    width: 100%;
+    opacity: 80%;
+    margin-top: 5rem;
+    flex-direction: column;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-group input,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #0B1F85;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s ease background-color;
+    background-color: cadetblue;
+}
+
+button[type="submit"]:hover {
+    background-color: #0B1F85;
+}
+
+#status {
+    width: 50%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: black;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    margin: auto;
+    max-width: 500px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline;
+}
+
+footer span {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.footer-payments {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-payments i {
+    padding: 5px;
+}
+
+.fa {
+    color: cadetblue;
+    transition: .5s ease color;
+}
+
+.fa:hover {
+    color: #0B1F85;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 910px) {
+    .about-page-content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about-page-headline {
+        padding: 20px;
+    }
+
+    .about-page-descriptions {
+        padding: 20px;
+    }
+
+    .about-page img {
+        margin: auto;
+        height: 20rem;
+        max-width: 500px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    .founder-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .founder-box img {
+        height: 30rem;
+        width: 25rem;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+
+    .drinks {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .drink-header {
+        padding-left: 20px;
+    }
+
+    .drink-info {
+        padding: 20px;
+    }
+
+    .drinks img {
+        clear: both;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    header {
+        padding: 20px;
+    }
+}
