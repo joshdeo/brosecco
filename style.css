@@ -281,11 +281,13 @@ button[type="submit"] {
     cursor: pointer;
     margin-top: 10px;
     transition: .3s ease background-color;
-    background-color: cadetblue;
+    background-color: #0B1F85;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 button[type="submit"]:hover {
-    background-color: #0B1F85;
+    background-color: darkgreen;
 }
 
 #status {
@@ -349,7 +351,7 @@ footer span {
 }
 
 .fa {
-    color: cadetblue;
+    color: #0B1F85;
     transition: .5s ease color;
 }
 
