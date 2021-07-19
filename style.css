@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: 'Raleway';
 }
 
 body {
@@ -24,7 +25,7 @@ header img {
 }
 
 nav {
-    border-top: 2px solid black;
+    border-top: 2px solid #0B1F85;
 }
 
 nav ul {
@@ -214,7 +215,8 @@ nav ul li {
 }
 
 .drinks img {
-    height: 20rem;
+    width: 20rem;
+
 }
 
 /* TERMS & CONDITIONS */
@@ -283,7 +285,7 @@ button[type="submit"] {
     transition: .3s ease background-color;
     background-color: #0B1F85;
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 
 button[type="submit"]:hover {
