@@ -324,6 +324,7 @@ button[type="submit"]:hover {
 footer {
     margin: auto;
     max-width: 500px;
+    color: #0B1F85;
 }
 
 footer ul {
